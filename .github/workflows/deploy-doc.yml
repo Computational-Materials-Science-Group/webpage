@@ -16,7 +16,7 @@ jobs:
         python-version: 3.8
 
     - name: Install python dependencies
-      run: pip install sphinx sphinx-rtd-theme
+      run: pip install sphinx sphinx-rtd-theme sphinx_bootstrap_theme
 
     - name: Checkout the project repository
       uses: actions/checkout@v2
